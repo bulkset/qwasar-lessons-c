@@ -3,6 +3,6 @@
 int main() {
   char my_letter = 'c';
 
-  printf("%c\n", my_letter);
+  printf("%c\nc, my_letter);
   return 0;
 }

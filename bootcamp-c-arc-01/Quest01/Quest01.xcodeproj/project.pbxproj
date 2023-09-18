@@ -10,6 +10,7 @@
 		2BFF52EF2AB85FF500B8267D /* my_first_compilation.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF52EE2AB85FF500B8267D /* my_first_compilation.c */; };
 		2BFF52F32AB8602B00B8267D /* my_first_variable_integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF52F22AB8602B00B8267D /* my_first_variable_integer.c */; };
 		2BFF52F62AB8606B00B8267D /* my_first_variable_char.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF52F52AB8606B00B8267D /* my_first_variable_char.c */; };
+		2BFF52F92AB862A500B8267D /* my_first_variable_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF52F82AB862A500B8267D /* my_first_variable_string.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		2BFF52EE2AB85FF500B8267D /* my_first_compilation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_compilation.c; sourceTree = "<group>"; };
 		2BFF52F22AB8602B00B8267D /* my_first_variable_integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_variable_integer.c; sourceTree = "<group>"; };
 		2BFF52F52AB8606B00B8267D /* my_first_variable_char.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_variable_char.c; sourceTree = "<group>"; };
+		2BFF52F82AB862A500B8267D /* my_first_variable_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_variable_string.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		2BFF52DB2AB85F8000B8267D = {
 			isa = PBXGroup;
 			children = (
+				2BFF52F72AB8627F00B8267D /* ex03 */,
 				2BFF52F42AB8604100B8267D /* ex02 */,
 				2BFF52F02AB8600C00B8267D /* ex01 */,
 				2BFF52E62AB85F8000B8267D /* ex00 */,
@@ -82,6 +85,14 @@
 				2BFF52F52AB8606B00B8267D /* my_first_variable_char.c */,
 			);
 			path = ex02;
+			sourceTree = "<group>";
+		};
+		2BFF52F72AB8627F00B8267D /* ex03 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF52F82AB862A500B8267D /* my_first_variable_string.c */,
+			);
+			path = ex03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				2BFF52F62AB8606B00B8267D /* my_first_variable_char.c in Sources */,
 				2BFF52EF2AB85FF500B8267D /* my_first_compilation.c in Sources */,
 				2BFF52F32AB8602B00B8267D /* my_first_variable_integer.c in Sources */,
+				2BFF52F92AB862A500B8267D /* my_first_variable_string.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
