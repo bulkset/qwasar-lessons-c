@@ -19,6 +19,10 @@
 		2BFF531C2AB9C13800B8267D /* my_first_while.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF531B2AB9C13800B8267D /* my_first_while.c */; };
 		2BFF531F2AB9C1F700B8267D /* my_first_param_function.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF531E2AB9C1F700B8267D /* my_first_param_function.c */; };
 		2BFF53222AB9C81500B8267D /* my_first_return_function.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53212AB9C81500B8267D /* my_first_return_function.c */; };
+		2BFF53252AB9D32100B8267D /* my_is_negative.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53242AB9D32100B8267D /* my_is_negative.c */; };
+		2BFF53282AB9D84D00B8267D /* my_abs.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53272AB9D84D00B8267D /* my_abs.c */; };
+		2BFF532B2AB9E3B100B8267D /* my_isalpha.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF532A2AB9E3B100B8267D /* my_isalpha.c */; };
+		2BFF532E2AB9E62B00B8267D /* my_isdigit.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF532D2AB9E62B00B8267D /* my_isdigit.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +51,10 @@
 		2BFF531B2AB9C13800B8267D /* my_first_while.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_while.c; sourceTree = "<group>"; };
 		2BFF531E2AB9C1F700B8267D /* my_first_param_function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_param_function.c; sourceTree = "<group>"; };
 		2BFF53212AB9C81500B8267D /* my_first_return_function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_first_return_function.c; sourceTree = "<group>"; };
+		2BFF53242AB9D32100B8267D /* my_is_negative.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_is_negative.c; sourceTree = "<group>"; };
+		2BFF53272AB9D84D00B8267D /* my_abs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_abs.c; sourceTree = "<group>"; };
+		2BFF532A2AB9E3B100B8267D /* my_isalpha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_isalpha.c; sourceTree = "<group>"; };
+		2BFF532D2AB9E62B00B8267D /* my_isdigit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_isdigit.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 		2BFF52DB2AB85F8000B8267D = {
 			isa = PBXGroup;
 			children = (
+				2BFF532C2AB9E61B00B8267D /* ex15 */,
+				2BFF53292AB9E39900B8267D /* ex14 */,
+				2BFF53262AB9D84100B8267D /* ex13 */,
+				2BFF53232AB9D31400B8267D /* ex12 */,
 				2BFF53202AB9C80900B8267D /* ex11 */,
 				2BFF531D2AB9C1DC00B8267D /* ex10 */,
 				2BFF531A2AB9C11C00B8267D /* ex09 */,
@@ -183,6 +195,38 @@
 			path = ex11;
 			sourceTree = "<group>";
 		};
+		2BFF53232AB9D31400B8267D /* ex12 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF53242AB9D32100B8267D /* my_is_negative.c */,
+			);
+			path = ex12;
+			sourceTree = "<group>";
+		};
+		2BFF53262AB9D84100B8267D /* ex13 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF53272AB9D84D00B8267D /* my_abs.c */,
+			);
+			path = ex13;
+			sourceTree = "<group>";
+		};
+		2BFF53292AB9E39900B8267D /* ex14 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF532A2AB9E3B100B8267D /* my_isalpha.c */,
+			);
+			path = ex14;
+			sourceTree = "<group>";
+		};
+		2BFF532C2AB9E61B00B8267D /* ex15 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF532D2AB9E62B00B8267D /* my_isdigit.c */,
+			);
+			path = ex15;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFF53282AB9D84D00B8267D /* my_abs.c in Sources */,
+				2BFF532B2AB9E3B100B8267D /* my_isalpha.c in Sources */,
 				2BFF531F2AB9C1F700B8267D /* my_first_param_function.c in Sources */,
 				2BFF52F62AB8606B00B8267D /* my_first_variable_char.c in Sources */,
 				2BFF52EF2AB85FF500B8267D /* my_first_compilation.c in Sources */,
@@ -248,10 +294,12 @@
 				2BFF53152AB8A07A00B8267D /* my_first_if_multiple_conditions.c in Sources */,
 				2BFF531C2AB9C13800B8267D /* my_first_while.c in Sources */,
 				2BFF52F92AB862A500B8267D /* my_first_variable_string.c in Sources */,
+				2BFF53252AB9D32100B8267D /* my_is_negative.c in Sources */,
 				2BFF53042AB8653A00B8267D /* my_first_if_else.c in Sources */,
 				2BFF53192AB9C01C00B8267D /* my_first_function.c in Sources */,
 				2BFF53012AB8646400B8267D /* my_first_incrementation.c in Sources */,
 				2BFF52FD2AB863F300B8267D /* my_multiple_variables_multiple_type.c in Sources */,
+				2BFF532E2AB9E62B00B8267D /* my_isdigit.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
