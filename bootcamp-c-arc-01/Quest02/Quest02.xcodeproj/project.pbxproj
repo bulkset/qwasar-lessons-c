@@ -14,6 +14,7 @@
 		2BFF535C2ABDB9CD00B8267D /* my_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF535B2ABDB9CD00B8267D /* my_add.c */; };
 		2BFF53602ABDBBB100B8267D /* my_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF535F2ABDBBB100B8267D /* my_sub.c */; };
 		2BFF53622ABDBC9600B8267D /* my_mult.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53612ABDBC9600B8267D /* my_mult.c */; };
+		2BFF53652ABDBEB200B8267D /* my_string_formatting.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53642ABDBEB200B8267D /* my_string_formatting.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		2BFF535B2ABDB9CD00B8267D /* my_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_add.c; sourceTree = "<group>"; };
 		2BFF535F2ABDBBB100B8267D /* my_sub.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_sub.c; sourceTree = "<group>"; };
 		2BFF53612ABDBC9600B8267D /* my_mult.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_mult.c; sourceTree = "<group>"; };
+		2BFF53642ABDBEB200B8267D /* my_string_formatting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_string_formatting.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		2BFF533E2ABAFC6B00B8267D = {
 			isa = PBXGroup;
 			children = (
+				2BFF53632ABDBEA400B8267D /* ex07 */,
 				2BFF535E2ABDBB5500B8267D /* ex06 */,
 				2BFF535D2ABDBB4F00B8267D /* ex05 */,
 				2BFF535A2ABDB95E00B8267D /* ex04 */,
@@ -128,6 +131,14 @@
 			path = ex06;
 			sourceTree = "<group>";
 		};
+		2BFF53632ABDBEA400B8267D /* ex07 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF53642ABDBEB200B8267D /* my_string_formatting.c */,
+			);
+			path = ex07;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +201,7 @@
 				2BFF53622ABDBC9600B8267D /* my_mult.c in Sources */,
 				2BFF53532ABB02C900B8267D /* my_swap.c in Sources */,
 				2BFF534B2ABAFC6B00B8267D /* my_initializer.c in Sources */,
+				2BFF53652ABDBEB200B8267D /* my_string_formatting.c in Sources */,
 				2BFF53562ABB04C100B8267D /* my_strlen.c in Sources */,
 				2BFF53592ABDB79200B8267D /* my_putstr.c in Sources */,
 			);
