@@ -10,6 +10,7 @@
 		2BFF534B2ABAFC6B00B8267D /* my_initializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF534A2ABAFC6B00B8267D /* my_initializer.c */; };
 		2BFF53532ABB02C900B8267D /* my_swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53522ABB02C900B8267D /* my_swap.c */; };
 		2BFF53562ABB04C100B8267D /* my_strlen.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53552ABB04C100B8267D /* my_strlen.c */; };
+		2BFF53592ABDB79200B8267D /* my_putstr.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53582ABDB79200B8267D /* my_putstr.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		2BFF534A2ABAFC6B00B8267D /* my_initializer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_initializer.c; sourceTree = "<group>"; };
 		2BFF53522ABB02C900B8267D /* my_swap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_swap.c; sourceTree = "<group>"; };
 		2BFF53552ABB04C100B8267D /* my_strlen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_strlen.c; sourceTree = "<group>"; };
+		2BFF53582ABDB79200B8267D /* my_putstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_putstr.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		2BFF533E2ABAFC6B00B8267D = {
 			isa = PBXGroup;
 			children = (
+				2BFF53572ABDB77A00B8267D /* ex03 */,
 				2BFF53542ABB04AF00B8267D /* ex02 */,
 				2BFF53512ABB02BD00B8267D /* ex01 */,
 				2BFF53492ABAFC6B00B8267D /* ex00 */,
@@ -82,6 +85,14 @@
 				2BFF53552ABB04C100B8267D /* my_strlen.c */,
 			);
 			path = ex02;
+			sourceTree = "<group>";
+		};
+		2BFF53572ABDB77A00B8267D /* ex03 */ = {
+			isa = PBXGroup;
+			children = (
+				2BFF53582ABDB79200B8267D /* my_putstr.c */,
+			);
+			path = ex03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				2BFF53532ABB02C900B8267D /* my_swap.c in Sources */,
 				2BFF534B2ABAFC6B00B8267D /* my_initializer.c in Sources */,
 				2BFF53562ABB04C100B8267D /* my_strlen.c in Sources */,
+				2BFF53592ABDB79200B8267D /* my_putstr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
