@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9C4F032AC18F6200CEDD48 /* my_upcase.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C4F022AC18F6200CEDD48 /* my_upcase.c */; };
 		2BDBA0EE2ABEFA9B00FD074E /* my_string_index.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBA0ED2ABEFA9B00FD074E /* my_string_index.c */; };
 		2BFF534B2ABAFC6B00B8267D /* my_initializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF534A2ABAFC6B00B8267D /* my_initializer.c */; };
 		2BFF53532ABB02C900B8267D /* my_swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF53522ABB02C900B8267D /* my_swap.c */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B9C4F022AC18F6200CEDD48 /* my_upcase.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_upcase.c; sourceTree = "<group>"; };
 		2BDBA0ED2ABEFA9B00FD074E /* my_string_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_string_index.c; sourceTree = "<group>"; };
 		2BFF53472ABAFC6B00B8267D /* Quest02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Quest02; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFF534A2ABAFC6B00B8267D /* my_initializer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_initializer.c; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B9C4F012AC18F4600CEDD48 /* ex09 */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C4F022AC18F6200CEDD48 /* my_upcase.c */,
+			);
+			path = ex09;
+			sourceTree = "<group>";
+		};
 		2BDBA0EC2ABEFA8600FD074E /* ex08 */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		2BFF533E2ABAFC6B00B8267D = {
 			isa = PBXGroup;
 			children = (
+				2B9C4F012AC18F4600CEDD48 /* ex09 */,
 				2BDBA0EC2ABEFA8600FD074E /* ex08 */,
 				2BFF53632ABDBEA400B8267D /* ex07 */,
 				2BFF535E2ABDBB5500B8267D /* ex06 */,
@@ -207,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9C4F032AC18F6200CEDD48 /* my_upcase.c in Sources */,
 				2BFF53602ABDBBB100B8267D /* my_sub.c in Sources */,
 				2BFF535C2ABDB9CD00B8267D /* my_add.c in Sources */,
 				2BFF53622ABDBC9600B8267D /* my_mult.c in Sources */,
